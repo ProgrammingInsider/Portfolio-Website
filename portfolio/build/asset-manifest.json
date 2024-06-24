@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bbf10999.css",
+    "main.js": "/static/js/main.c6b9cdce.js",
+    "static/js/453.1407b060.chunk.js": "/static/js/453.1407b060.chunk.js",
+    "static/media/hotelandspa.png": "/static/media/hotelandspa.462ec3f48ac022f59690.png",
+    "static/media/softwaredevelopers.png": "/static/media/softwaredevelopers.9e5a056d7224a8424375.png",
+    "static/media/vacancy.png": "/static/media/vacancy.3885b9112d6bd1de828a.png",
+    "static/media/crypto.png": "/static/media/crypto.c0894a5ebec871b2dab8.png",
+    "static/media/intelligent.png": "/static/media/intelligent.53470c2be08dbf37f387.png",
+    "static/media/AboutMeImage.png": "/static/media/AboutMeImage.27d2cb558e84540be955.png",
+    "static/media/mypic.png": "/static/media/mypic.f291a0052679ab8d0c5c.png",
+    "static/media/ReactTestingLibrary.svg": "/static/media/ReactTestingLibrary.00d10ffb7de7c81d2802147d614689e6.svg",
+    "static/media/Jest.svg": "/static/media/Jest.9574a07e7e8297d63f784303d515504a.svg",
+    "static/media/mysql.svg": "/static/media/mysql.a984cb01457a36ba5438e58bf90b2516.svg",
+    "static/media/html.svg": "/static/media/html.df01cc82f62180d5f6c4c8e2777b7091.svg",
+    "static/media/nodejs.svg": "/static/media/nodejs.64bc3ee873a9a4ce82192991d68534d3.svg",
+    "static/media/express.svg": "/static/media/express.4840d2c882b34d33c83f8feca2294a99.svg",
+    "static/media/mongodb.svg": "/static/media/mongodb.b0574b335c02b30bf46778e09cfe515f.svg",
+    "index.html": "/index.html",
+    "static/media/css.svg": "/static/media/css.610fee5a0cf211bd47569718878babae.svg",
+    "main.bbf10999.css.map": "/static/css/main.bbf10999.css.map",
+    "main.c6b9cdce.js.map": "/static/js/main.c6b9cdce.js.map",
+    "453.1407b060.chunk.js.map": "/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bbf10999.css",
+    "static/js/main.c6b9cdce.js"
+  ]
+}
