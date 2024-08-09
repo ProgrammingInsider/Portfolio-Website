@@ -18,6 +18,8 @@ import Mongodb from "../Assets/img/mongodb.svg";
 import Mysql from "../Assets/img/mysql.svg";
 import Jest from "../Assets/img/Jest.svg";
 import ReactTesting from "../Assets/img/ReactTestingLibrary.svg";
+import Cypress from "../Assets/img/cypress.svg";
+import Vitest from "../Assets/img/vitest.svg";
 import hy from "../Assets/emojis/hy.png"
 
 
@@ -50,37 +52,41 @@ const Hero = () => {
          </div>
 
          {/* Techonogy Stacks */}
-         <div className='techStackContainer'>
-          
-           <p className='techStackTitle'>
-            Tech Stack
-           </p>
+        <div className='techStackContainer'>
+        
+          <p className='techStackTitle'>
+          Tech Stack
+          </p>
 
-           <div className='techStacks'>
-             <div className='frontendTechStack' title="Frontend Tech Stacks">
-               <img src={Html} alt='HTML Tech'/>
-               <img src={Css} alt='CSS Tech'/>
-             </div>
-             <div className='uxTechStack' title="UX Tech Stacks">
-               <img src={JavaScript} alt='JavaScript Tech'/>
-               <img src={ReactLogo} alt='React Tech'/>
-             </div>
-             <div className='backendTechStack' title="Backend Tech Stacks">
-               <img src={Node} alt='Node Tech'/>
-               <img src={Express} alt='Express Tech'/>
-             </div>
-             <div className='databaseTechStack' title="Database Tech Stacks">
-               <img src={Mongodb} alt='MongoDB Tech'/>  
-               <img src={Mysql} alt='MySQL Tech'/>
-             </div>
-             <div className='testingTechStack' title="Testing Tech Stacks">
-               <img src={ReactTesting} alt='React Testing Tech'/>
-               <img src={Jest} alt='Jest Tech'/>
-             </div>
-           </div>
+          <div className='techStacks'>
+            <div className='frontendTechStack' title="Frontend Tech Stacks">
+              <img src={Html} alt='HTML Tech'/>
+              <img src={Css} alt='CSS Tech'/>
+            </div>
+            <div className='uxTechStack' title="UX Tech Stacks">
+              <img src={JavaScript} alt='JavaScript Tech'/>
+              <img src={ReactLogo} alt='React Tech'/>
+            </div>
+            <div className='backendTechStack' title="Backend Tech Stacks">
+              <img src={Node} alt='Node Tech'/>
+              <img src={Express} alt='Express Tech'/>
+            </div>
+            <div className='databaseTechStack' title="Database Tech Stacks">
+              <img src={Mongodb} alt='MongoDB Tech'/>  
+              <img src={Mysql} alt='MySQL Tech'/>
+            </div>
+            <div className='testingTechStack' title="Testing Tech Stacks">
+              <img src={ReactTesting} alt='React Testing Tech'/>
+              <img src={Jest} alt='Jest Tech'/>
+            </div>
+            <div className='testingTechStack' title="Testing Tech Stacks">
+              <img src={Cypress} alt='Cypress'/>
+              <img src={Vitest} alt='Vitest'/>
+            </div>
+          </div>
 
-         </div>
-     </div>
+        </div>
+    </div>
   </>
 }
 

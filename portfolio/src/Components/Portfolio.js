@@ -18,13 +18,13 @@ const Portfolio = () => {
     if(filter === "All"){
       setProjects(projectCollection)
     }else{
-       setProjects(()=>projectCollection.filter((item)=>item.projectType === filter))
+      setProjects(()=>projectCollection.filter((item)=>item.projectType === filter))
     }
       
   },[index,filter])
 
   return <>
-       <div className='sectionContainer'>
+      <div className='sectionContainer'>
             <h1 className='sectionName'>Portfolio</h1>
             <h1 className='sectionHeadline'>Each Project is a  Unique Piece of development 🧩</h1>
 
@@ -35,32 +35,19 @@ const Portfolio = () => {
                       <li 
                       className={index === 0 ? 'projectFilter activeFilter':'projectFilter'}
                       onClick={()=>{setIndex(0);setFilter("All")}}
-                      data-testid="allBtn">All</li>
+                      data-testid="allBtn">Full Stack</li>
 
                       <li 
                       className={index === 1 ? 'projectFilter activeFilter':'projectFilter'}
-                      onClick={()=>{setIndex(1);setFilter("HTML/CSS")}}
-                      data-testid="htmlcssBtn">HTML/CSS</li>
-
-                      <li 
-                      className={index === 2 ? 'projectFilter activeFilter':'projectFilter'}
-                      onClick={()=>{setIndex(2);setFilter("JavaScript")}}
-                      data-testid="javascriptBtn">JavaScript</li>
-                      <li 
-                      className={index === 3 ? 'projectFilter activeFilter':'projectFilter'}
-                      onClick={()=>{setIndex(3);setFilter("React")}}
-                      data-testid="reactBtn">React</li>
-                      <li 
-                      className={index === 5 ? 'projectFilter activeFilter':'projectFilter'}
-                      onClick={()=>{setIndex(5);setFilter("Full-Stack")}}
-                      data-testid="fullstackBtn">Full-stack</li>
+                      onClick={()=>{setIndex(1);setFilter("UI/UX")}}
+                      data-testid="htmlcssBtn">UI/UX</li>
                   </ul>
 
                 {/* Iterate Through Projects */}
                 <Projects projects={projects} filter={filter}/>
                 
             </div>
-       </div>
+      </div>
   </>
 }
 
