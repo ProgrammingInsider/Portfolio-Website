@@ -2,7 +2,7 @@ const projectCollection = [
    {
       projectImage: 'https://res.cloudinary.com/dahgxnpog/image/upload/v1723153783/homepage_zlsem9.png',
       projectName: "PrimeMarket 🛒",
-      id: "ecommerceApp",
+      id: "primemarket",
       projectDesc: "PrimeMarket is a comprehensive e-commerce platform designed and developed over a span of more than two months. It is built using the MERN stack (MongoDB, Express, React, Node.js) and aims to provide a user-friendly online shopping experience with a focus on functionality and responsiveness.",
       projectTech: ["CSS ", "React","NodeJs","ExpressJs","MongoDB","Docker","Cloudinary", "Cypress", "Jest", "Vitest"],
       projectType: "A Fullstack MERN E-commerce Application",
