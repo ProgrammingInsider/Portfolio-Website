@@ -47,7 +47,6 @@ body{
     font-style: normal;
     color: var(--headingColor);
     position: relative;
-    background-color: red;
 }
 
 /* Common Styles */
