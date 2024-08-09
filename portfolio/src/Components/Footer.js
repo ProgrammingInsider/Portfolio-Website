@@ -4,6 +4,8 @@ import React from 'react'
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
+import { FaTelegramPlane } from "react-icons/fa";
+
 
 const Footer = () => {
   return (
@@ -16,7 +18,7 @@ const Footer = () => {
         <a href='https://linkedin.com/in/amanuel-abera-kedida'target="_blank" rel="noopener noreferrer" ><FaLinkedinIn className='connectIcon'/></a>
         <a href='https://github.com/ProgrammingInsider' target="_blank" rel="noopener noreferrer"><FaGithub className='connectIcon'/></a>
         <a href='https://youtube.com/@ProgrammingInsider' target="_blank" rel="noopener noreferrer"><FaYoutube className='connectIcon'/></a>
-                {/* <a href='https://t.me programmingInsider' target="_blank" rel="noopener noreferrer"><FaTelegramPlane className='connectIcon'/></a> */}
+        <a href='https://t.me/Aman_A2208' target="_blank" rel="noopener noreferrer"><FaTelegramPlane className='connectIcon'/></a>
       </div>
 
     </div>
