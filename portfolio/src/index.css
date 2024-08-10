@@ -644,7 +644,7 @@ section{
     display: flex;
     align-items: center;
     font-weight: 700;
-    color: var(--headingColor);
+    color: var(--primaryColor);
     margin-right: 2em;
     margin-bottom: 1em;
     width: auto;
