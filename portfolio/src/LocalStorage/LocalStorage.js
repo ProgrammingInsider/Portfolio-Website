@@ -8,8 +8,8 @@ const projectCollection = [
       projectType: "A Fullstack MERN E-commerce Application",
       GitHuB: 'https://github.com/ProgrammingInsider/PrimeMarket-E-commerce-Platform',
       Demo: 'https://primemarket.onrender.com/',
-      Design: 'https://dribbble.com/shots/24190582-Web-Design-For-Software-Development-and-Graphics-Design?utm_source=Clipboard_Shot&utm_campaign=Amanuel_Abera&utm_content=Web%20Design%20For%20Software%20Development%20and%20Graphics%20Design&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=Amanuel_Abera&utm_content=Web%20Design%20For%20Software%20Development%20and%20Graphics%20Design&utm_medium=Social_Share',
-      DockerImage: 'https://dribbble.com/shots/24190582-Web-Design-For-Software-Development-and-Graphics-Design?utm_source=Clipboard_Shot&utm_campaign=Amanuel_Abera&utm_content=Web%20Design%20For%20Software%20Development%20and%20Graphics%20Design&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=Amanuel_Abera&utm_content=Web%20Design%20For%20Software%20Development%20and%20Graphics%20Design&utm_medium=Social_Share'
+      // Design: 'https://dribbble.com/shots/24190582-Web-Design-For-Software-Development-and-Graphics-Design?utm_source=Clipboard_Shot&utm_campaign=Amanuel_Abera&utm_content=Web%20Design%20For%20Software%20Development%20and%20Graphics%20Design&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=Amanuel_Abera&utm_content=Web%20Design%20For%20Software%20Development%20and%20Graphics%20Design&utm_medium=Social_Share',
+      DockerImage: 'https://hub.docker.com/u/aman2208'
    }
 ]
 
