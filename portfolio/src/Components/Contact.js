@@ -31,7 +31,7 @@ const Contact = () => {
         <h1 className='sectionHeadline'>Don't be shy! Hit me up! 👇</h1>
       <div className='contactContainer'>
         <div className="form-container">
-          <h2>Contact Us</h2>
+          <h2>Contact Me</h2>
           <form ref={form} onSubmit={sendEmail} className='contact-form'>
           <div className="form-group">
               <label>Subject</label>
@@ -57,7 +57,7 @@ const Contact = () => {
           <p><FaPhoneAlt /> +251922112208</p>
           <button onClick={() => window.location.href = 'tel:+251922112208'}>Call Me</button>
           <p><FaEnvelope /> amanuelabera46@gmail.com</p>
-          <button onClick={() => window.location.href = 'mailto:amanuelabera46@gmail.com'}>Email</button>
+          <button onClick={() => window.location.href = 'mailto:amanuelabera46@gmail.com'}>Email Me</button>
           <p><FaTelegramPlane  /> @Aman_A2208</p>
           <button onClick={() => window.location.href = 'https://t.me/Aman_A2208'}>Telegram</button>
         </div>
