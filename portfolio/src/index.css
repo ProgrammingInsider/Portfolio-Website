@@ -1027,7 +1027,7 @@ button:hover {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.8);
     z-index: 999; 
     display: flex;
     justify-content: center;
@@ -1044,13 +1044,14 @@ button:hover {
     left: 0;
     right: 0;
     bottom: 0;
-    max-width: 90%;
+    width: 100%;
+    max-width: 800px;
     margin: auto;
     z-index: 1000;
     overflow-y: auto;
     scrollbar-width: thin;
     scrollbar-color: #888 #f1f1f1;
-    border-radius: var(--border-radius);
+    /* border-radius: var(--border-radius); */
     background-color: var(--bodyColor);
     box-shadow: var(--box-shadow);
     padding: 2em;
@@ -1081,7 +1082,7 @@ button:hover {
 }
 
 .closeDetail {
-    font-size: 1.5rem;
+    font-size: 2rem;
     cursor: pointer;
     color: var(--primaryColor);
 }
