@@ -14,31 +14,31 @@ import Footer from './Components/Footer';
 
 const App = () => {
   return <>
-       <Header/>
+      <Header/>
 
-       <section id='Home' className='greyBg heroSection'>
-        <Hero/>
-       </section>
+      <section id='Home' className='greyBg heroSection'>
+      <Hero/>
+      </section>
 
-       <section id='About' className='whiteBg'>
-          <Aboutme/>
-       </section>
+      <section id='About' className='whiteBg'>
+         <Aboutme/>
+      </section>
 
-       <section id='Projects' className='greyBg'>
-        <Portfolio/>
-       </section>
+      <section id='Projects' className='greyBg'>
+      <Portfolio/>
+      </section>
 
-       <section id='YouTube' className='whiteBg'>
-        <Youtube/>
-       </section>
+      {/* <section id='YouTube' className='whiteBg'>
+      <Youtube/>
+      </section> */}
 
-       <section id='Contact' className='greyBg'>
-          <Contact/>
-       </section>
+      <section id='Contact' className='greyBg'>
+         <Contact/>
+      </section>
 
-       <section className='footerBg'>
-        <Footer/>
-       </section>
+      <section className='footerBg'>
+      <Footer/>
+      </section>
   </>
 }
 

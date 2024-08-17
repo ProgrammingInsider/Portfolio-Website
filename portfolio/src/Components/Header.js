@@ -15,13 +15,13 @@ const Header = () => {
 
         {/* Navigation */}
         <ul className={showMenu ? 'nav' : 'nav hideNav'} data-testid="nav">
-           <a href='#Home' className='navLink' onClick={()=>setShowMenu(false)}><li>Home</li></a>
-           <a href='#About' className='navLink' onClick={()=>setShowMenu(false)}><li>About</li></a>
-           <a href='#Projects' className='navLink' onClick={()=>setShowMenu(false)}><li>Projects</li></a>
-           <a href='#YouTube' className='navLink' onClick={()=>setShowMenu(false)}><li>YouTube</li></a>
-           <a href='#Contact' className='navLink' onClick={()=>setShowMenu(false)}><li>Contact</li></a>
-           
-           <IoClose className='closeMenu' alt='close' onClick={()=>setShowMenu(false)}/>
+          <a href='#Home' className='navLink' onClick={()=>setShowMenu(false)}><li>Home</li></a>
+          <a href='#About' className='navLink' onClick={()=>setShowMenu(false)}><li>About</li></a>
+          <a href='#Projects' className='navLink' onClick={()=>setShowMenu(false)}><li>Projects</li></a>
+          {/* <a href='#YouTube' className='navLink' onClick={()=>setShowMenu(false)}><li>YouTube</li></a> */}
+          <a href='#Contact' className='navLink' onClick={()=>setShowMenu(false)}><li>Contact</li></a>
+          
+          <IoClose className='closeMenu' alt='close' onClick={()=>setShowMenu(false)}/>
         </ul>
 
         {/* Menu Bar */}
