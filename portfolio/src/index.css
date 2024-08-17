@@ -1171,7 +1171,7 @@ button:hover {
     }
 
     .closeDetail {
-        font-size: 1.2rem;
+        font-size: 1.5rem;
     }
 }
 
@@ -1187,10 +1187,6 @@ button:hover {
     }
 
     .sectionName, .listGeneralName {
-        font-size: 1rem;
-    }
-
-    .closeDetail {
         font-size: 1rem;
     }
 }
