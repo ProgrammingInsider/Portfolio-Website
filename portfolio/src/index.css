@@ -327,57 +327,131 @@ section{
     margin-right: .7em;
 }
 
-.techStackContainer{
-    display: flex;
-    flex-direction: column;
+.techStackContainer {
+    width: 100%;
+    max-width: 200px;
+    border-collapse: collapse;
     margin-top: 4em;
 }
 
-.techStackTitle{
-    font-size: 17px;
-    font-weight: 700;
-    position: relative;
-    padding: .3em;
-    width: 110px;
-    margin: auto;
+.techStackContainer th, .techStackContainer td {
+    border: none;
+    padding: 8px;
     text-align: center;
-    color: var(--headingColor);
-    z-index: 1;
 }
 
-.techStackTitle::before{
-    content: '';
-    position: absolute;
-    background-color: var(--paraColor);
-    width: 80%;
-    height: 1px;
-    bottom: 0;
-    left: 10%;
-    right: 10%;
-}
-
-.techStacks{
-    margin: 2em 1em;
+.techStackTitle{
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    text-align: center;
+    font-size: 18px;
+    text-align: center;
 }
 
-.techStacks div{
-    display: flex;
+.techStacks tr {
+    position: relative;
+    display: grid;
     justify-content: center;
     align-items: center;
-    margin: .5em;
+    place-items: center;
+    width: 100%;
+    margin: 1em auto;
+    background-color: #f1f1f1;
 }
 
-.techStacks div img{
+.techStacks tr:last-child::before {
+    height: 0;
+}
+
+.techStackSector {
+    flex: 1;
+    font-weight: 500;
+    width: 100px;
+}
+
+.techStackLists {
+    width: 100%;
+    flex: 2;
+}
+
+.techStackLists div {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.techStackLists img {
     width: 50px;
     height: 50px;
-    margin-left: .3em;
+    margin: 10px;
 }
+
+.eachTech {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px; 
+    position: relative; 
+    transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
+}
+
+.tooltip {
+    position: absolute; 
+    bottom: 70px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #111;
+    padding: 5px;
+    border-radius: 5px;
+    height: 30px;
+    font-size: 14px;
+    color: var(--greyBgColor);
+    white-space: nowrap;
+    overflow: visible;
+    display: none;
+}
+
+.tooltip::before {
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    transform: translateX(-50%) rotate(45deg);
+    width: 15px;
+    height: 15px;
+    background-color: #111;
+    z-index: -1;
+}
+
+.eachTech:hover .tooltip {
+    display: inline-block;
+}
+
+
+@media screen and (max-width: 768px) {
+    .techStackContainer th, .techStackContainer td {
+        font-size: 18px;
+    }
+
+    .techStackLists img {
+        max-width: 80px;
+        margin: 8px;
+    }
+}
+
+@media screen and (min-width: 480px) {
+    .techStacks tr {
+        grid-template-columns: 1fr 3fr;
+    }
+}
+
 @media screen and (max-width: 480px) {
     .headline{
         font-size: 40px;
+    }
+
+    .techStackLists img {
+        max-width: 60px;
+        margin: 6px;
     }
 }
 
@@ -409,17 +483,10 @@ section{
         text-align: left;
     }
 
-    .techStackContainer{
-        flex-direction: row;
-        margin-top: 2em;
-    }
-
-    .techStackTitle::before{
-        width: 2px;
-        height: 80%;
-        bottom: 10%;
-        top: 10%;
-        left: 100%;
+    .techStacks{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1em;
     }
 }
 /* Hero Section Style End */
@@ -766,7 +833,6 @@ section{
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
-    background-color: var(--greyBgColor);
     border-radius: var(--border-radius);
     transition: var(--transition);
     justify-content: space-between;
@@ -781,7 +847,6 @@ section{
     margin: auto;
     padding: 2em;
     border-radius: 10px;
-    margin-bottom: 2em;
     height: 100%;
 }
 
@@ -809,12 +874,8 @@ section{
 .contact-methods p{
     display: flex;
     align-items: center;
-    gap: .7em;
-    margin-bottom: .5em;
-}
-
-.contact-methods p {
-    font-size: 14px;
+    gap: .5em;
+    font-size: 16px;
     color: var(--paraColor);
     display: flex;
     align-items: center;
@@ -833,8 +894,9 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 14px;
-    width: 150px;
+    font-size: 15px;
+    width: 120px;
+    margin-bottom: .7em;
 }
 
 .contact-methods button:hover {

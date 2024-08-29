@@ -32,14 +32,14 @@ const App = () => {
       <Youtube/>
       </section> */}
 
-      <section id='Contact' className='greyBg'>
+      <section id='Contact' className='whiteBg'>
          <Contact/>
       </section>
 
       <section className='footerBg'>
       <Footer/>
       </section>
-  </>
+</>
 }
 
 export default App;

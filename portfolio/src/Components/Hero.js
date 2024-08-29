@@ -21,6 +21,11 @@ import ReactTesting from "../Assets/img/ReactTestingLibrary.svg";
 import Cypress from "../Assets/img/cypress.svg";
 import Vitest from "../Assets/img/vitest.svg";
 import hy from "../Assets/emojis/hy.png"
+import Docker from "../Assets/img/docker.png"
+import GitHubAction from "../Assets/img/GitHub_action.png"
+
+
+
 
 
 
@@ -49,43 +54,100 @@ const Hero = () => {
                 <a href='https://t.me/Aman_A2208' target="_blank" rel="noopener noreferrer"><FaTelegramPlane className='connectIcon'/></a>
               </div>
           </div>
-         </div>
+        </div>
 
          {/* Techonogy Stacks */}
-        <div className='techStackContainer'>
-        
-          <p className='techStackTitle'>
-          Tech Stack
-          </p>
-
-          <div className='techStacks'>
-            <div className='frontendTechStack' title="Frontend Tech Stacks">
-              <img src={Html} alt='HTML Tech'/>
-              <img src={Css} alt='CSS Tech'/>
-            </div>
-            <div className='uxTechStack' title="UX Tech Stacks">
-              <img src={JavaScript} alt='JavaScript Tech'/>
-              <img src={ReactLogo} alt='React Tech'/>
-            </div>
-            <div className='backendTechStack' title="Backend Tech Stacks">
-              <img src={Node} alt='Node Tech'/>
-              <img src={Express} alt='Express Tech'/>
-            </div>
-            <div className='databaseTechStack' title="Database Tech Stacks">
-              <img src={Mongodb} alt='MongoDB Tech'/>  
-              <img src={Mysql} alt='MySQL Tech'/>
-            </div>
-            <div className='testingTechStack' title="Testing Tech Stacks">
-              <img src={ReactTesting} alt='React Testing Tech'/>
-              <img src={Jest} alt='Jest Tech'/>
-            </div>
-            <div className='testingTechStack' title="Testing Tech Stacks">
-              <img src={Cypress} alt='Cypress'/>
-              <img src={Vitest} alt='Vitest'/>
-            </div>
-          </div>
-
-        </div>
+          <table className='techStackContainer'>
+            <thead className='techStackTitle'>
+              <th><td>Tech Stack</td></th>
+            </thead>
+            <tbody className='techStacks'>
+              <tr>
+                <td className='techStackSector'>Frontend</td>
+                <td className='techStackLists'>
+                  <div className='frontendTechStack'>
+                    <div className='eachTech'>
+                      <span className='tooltip'>HTML5</span>
+                      <img src={Html} alt='HTML Tech'/>
+                    </div>
+                    <div className='eachTech'>
+                      <span className='tooltip'>CSS3</span>
+                      <img src={Css} alt='CSS Tech'/>
+                    </div>
+                    <div className='eachTech'>
+                      <span className='tooltip'>JavaScript</span>
+                      <img src={JavaScript} alt='JavaScript Tech'/>
+                    </div>
+                    <div className='eachTech'>
+                      <span className='tooltip'>React Js</span>
+                      <img src={ReactLogo} alt='React Tech'/>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td className='techStackSector'>Backend</td>
+                <td className='techStackLists'>
+                  <div className='backendTechStack'>
+                    <div className='eachTech'>
+                      <span className='tooltip'>Node js</span>
+                      <img src={Node} alt='Node Tech'/>
+                    </div>
+                    <div className='eachTech'>
+                      <span className='tooltip'>Express js</span>
+                      <img src={Express} alt='Express Tech'/>
+                    </div>
+                    <div className='eachTech'>
+                      <span className='tooltip'>MongoDB</span>
+                      <img src={Mongodb} alt='MongoDB Tech'/>  
+                    </div>
+                    <div className='eachTech'>
+                      <span className='tooltip'>MySQL</span>
+                      <img src={Mysql} alt='MySQL Tech'/>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td className='techStackSector'>Testing</td>
+                <td className='techStackLists'>
+                  <div className='testingTechStack'>
+                    <div className='eachTech'>
+                      <span className='tooltip'>React Testing Library</span>
+                      <img src={ReactTesting} alt='React Testing Tech'/>
+                    </div>
+                    <div className='eachTech'>
+                      <span className='tooltip'>Jest</span>
+                      <img src={Jest} alt='Jest Tech'/>
+                    </div>
+                    <div className='eachTech'>
+                      <span className='tooltip'>Cypress</span>
+                      <img src={Cypress} alt='Cypress'/>
+                    </div>
+                    <div className='eachTech'>
+                      <span className='tooltip'>Vitest</span>
+                      <img src={Vitest} alt='Vitest'/>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td className='techStackSector'>DevOps</td>
+                <td className='techStackLists'>
+                  <div className='devOpsTechStack'>
+                    <div className='eachTech'>
+                      <span className='tooltip'>Docker</span>
+                      <img src={Docker} alt='DevOps Tech'/>
+                    </div>
+                    <div className='eachTech'>
+                      <span className='tooltip'>GitHub Action</span>
+                      <img src={GitHubAction} alt='DevOps Tech'/> 
+                    </div>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
     </div>
   </>
 }
